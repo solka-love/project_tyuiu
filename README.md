@@ -1,2 +1,2 @@
-# project_tyuiu
+# project for tyuiu
 our work on project activities
