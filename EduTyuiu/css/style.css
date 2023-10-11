@@ -104,6 +104,9 @@ body{
     left: 12vh;
     top: 14vh;
     grid-template-columns: repeat(4, 1fr);
+
+
+    
 }
 
 .course{
