@@ -101,9 +101,15 @@ body{
 .courses{
     position: absolute;
     display: grid;
+    display: flex;
     left: 12vh;
     top: 14vh;
     grid-template-columns: repeat(4, 1fr);
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    align-content: flex-end;
 }
 
 .course{
