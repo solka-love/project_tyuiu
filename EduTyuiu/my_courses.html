@@ -1,0 +1,48 @@
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Мои курсы</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <div id="edu_tyuiu">EduTyuiu</div>
+        <button id="user_btn"></button>
+    </header>
+
+    <main class="main">
+        <nav class="side_nav">
+            <a href=""><img class="nav_ref_img" src="img/House.svg" alt=""></a>
+            <a href=""><img class="nav_ref_img" src="img/Calendar.svg" alt=""></a>
+            <a href=""><img class="nav_ref_img" src="img/Chart Up.svg" alt=""></a>
+            <a href=""><img class="nav_ref_img" src="img/S.svg" alt=""></a>
+        </nav>
+
+        <div class="header2">
+            <div class="your_courses">Ваши курсы</div>
+            <input type="text" id="search_course" placeholder="Поиск курса 🔎">
+            <select id="sort_courses">
+                <option value="name">Название</option>
+                <option value="add_date">Дата добавления</option>
+                <option value="author_name">Имя автора</option>
+            </select>
+            <select id="dir_sort">
+                <option value="direct_sort">↓</option>
+                <option value="reverse_sort">↑</option>
+            </select>
+        </div>
+        
+        <div class="courses">
+            миллион курсов
+        </div>
+    </main>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
