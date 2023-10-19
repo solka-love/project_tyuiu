@@ -25,7 +25,7 @@ html{
 /* Общие стили для Body */
 body{
     font-family: 'Inter', sans-serif;
-    font-size: 2.5vh;
+    font-size: 2.5vmin;
     font-weight: 500;
     background-color: #E6E6E6;
     user-select: none;
@@ -38,18 +38,17 @@ body{
     align-items: center;
     justify-content: space-between;
     background-color: rgb(141,183,207);
-    border-radius: 0 0 1vmax 0;
-    height: 12.500vh;
-    font-size: 5.000vh;
+    height: 12.500vmin;
+    font-size: 5.000vmin;
     color:#3A3A3A;
-    padding-left: 4.255vw;
-    padding-right: 0.399vw;
+    padding-left: 4.255vmax;
+    padding-right: 0.399vmax;
 }
 
 #user_btn{
-    height: 10vh;
-    width: 10vh;
-    border: 0.6vh solid white;
+    height: 10vmin;
+    width: 10vmin;
+    border: 0.6vmin solid white;
     border-radius: 50%;
     background: #BDE3FF;
     background-image: url("../img/user.svg");
@@ -71,8 +70,8 @@ body{
     justify-content: center;
     background-color: rgb(141,183,207);
     border-radius: 0 0 1vmax 1vmax;
-    height: 12.500vh;
-    font-size: 5.000vh;
+    height: 12.500vmin;
+    font-size: 5.000vmin;
     color:#3A3A3A;
 }
 /* Стили для Main страницы авторизации */
@@ -83,32 +82,32 @@ body{
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    gap: 1.563vh;
-    margin-top: 7.5vh;
+    gap: 1.563vmin;
+    margin-top: 7.5vmin;
 }
 
 .entr_lbl{
-    font-size: 8.750vh;
+    font-size: 8.750vmin;
     color:#0D99FF;
 }
 
 #password, #email, #domain{
     background-color: #ffffff00;
-    width: 32vw;
-    height: 5vh;
-    font-size: 2.5vh;
+    width: 32vmax;
+    height: 5vmin;
+    font-size: 2.5vmin;
     border: none;
     outline: none;
-    padding: 0.5vh;
+    padding: 0.5vmin;
 }
 
 .input_a, #password{
     background-color: #ffffff00;
-    border: 0.6vh solid #0D99FF;
-    border-radius: 1vmax;
-    width: 35vmax;
-    height: 5vh;
-    max-height: 5vh;
+    border: 0.6vmin solid #0D99FF;
+    border-radius: 0.5vmax;
+    width: 35vmin;
+    height: 5vmin;
+    max-height: 5vmin;
 }
 
 #email{
@@ -125,7 +124,7 @@ body{
     -moz-appearance: none;
     appearance: none;
     text-align: center;
-    border-radius: 1.25vmin;
+    border-radius: 0.5vmin;
     float: right;
 }
 #domain:focus{
@@ -134,14 +133,14 @@ body{
 
 #entr_submit{
     background-color: #BDE3FF;
-    width: 32vw;
-    height: 5vh;
-    font-size: 2.5vh;
-    width: 13vmax;
-    height: 7vh;
-    min-height: 5vh;
-    border: 0.6vh solid #97B6CC;
-    border-radius: 1vmax;
+    width: 32vmax;
+    height: 5vmin;
+    font-size: 2.5vmin;
+    width: 13vmin;
+    height: 7vmin;
+    min-height: 5vmin;
+    border: 0.6vmin solid #97B6CC;
+    border-radius: 0.5vmax;
 }
 
 #entr_submit:active{
@@ -167,61 +166,68 @@ body{
     position: relative;
     flex-direction: column;
     background-color: #BDE3FF;
-    width: 4.255vw;
-    height: 87.5vh;
+    width: 4.255vmax;
+    height: 87.5%;
     border-radius: 0 0 1vmax 0;
-    gap: 1.376vh;
-    padding-top: 6.269vh;
+    gap: 1.376vmin;
+    padding-top: 6.269vmin;
     overflow-x: hidden;
 }
 
 .nav_ref_img{
-    width: 2.660vw;
-    height: 2.660vw;
+    width: 2.660vmax;
+    height: 2.660vmax;
 }
 
 .header2{
     position: absolute;
-    left: 4.225vw;
-    top: 12.500vh;
-    width:max-content;
+    left: 4.225vmax;
+    top: 12.500vmin;
     display: flex;
-    gap:1vw;
+    gap:1vmin;
 }
 
 .your_courses{
     background-color: white;
-    height: 5.046vh;
-    width: inherit;
-    border: 0.6vh solid rgb(141,183,207);
-    border-radius: 0 0 1vmax 1vmax;
+    height: 5.046vmin;
+    border-radius: 0 0 1vmax 0;
     display: flex;
     align-items: center;
-    padding: 0 1vw 0 1vw;
+    padding: 0 1vmax 0 1vmax;
 }
 
 #search_course, #sort_courses, #dir_sort{
     position: relative;
-    height: 5.046vh;
-    border: 0.6vh solid rgb(141,183,207);
+    height: 5.046vmin;
+    border: 0.6vmin solid rgb(141,183,207);
     border-radius: 0 0 1vmax 1vmax;
-    font-size: 2.5vh;
-    padding: 0 1vw 0 1vw;
+    font-size: 2.5vmin;
+    padding: 0 1vmax 0 1vmax;
     -webkit-appearance: none;
     -moz-appearance: none;
     appearance: none;
 }
 
-#search_course:focus, #sort_courses:focus{
+#search_course:focus, #sort_courses:focus, #dir_sort{
     outline: none;
 }
 
-.courses{
+#courses{
     position: absolute;
-    left: 8.511vw;
-    top: 22.171vh;
-    width: 87.234vw;
-    height: 70.948vh;
-    background-color: white;
-    
+    left: 8vmax;
+    top: 22.171vmin;
+    width: 87.234vmax;
+    height: 70.948vmin;
+    display: grid;
+    grid-template-columns: repeat(4, 17vw);
+}
+
+.course_n{
+    background-color: #BDE3FF;
+    border-radius: 1vmax;
+    margin-left: 1.5vmax;
+    margin-right: 1.5vmax;
+    margin-top: 1.5vmin;
+    margin-bottom: 1.5vmin;
+    padding: 1vmin;
 }
